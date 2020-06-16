@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
 
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+
+import Main from './Pages/Main';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React Bootstrap</h1>
-      </header>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }
